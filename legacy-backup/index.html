@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffdf5">
+  <meta name="description" content="Portofolio Achmad Rafiq Syaddid, mahasiswa Teknik Informatika yang belajar dan membangun aplikasi web serta desktop melalui proyek nyata.">
+  <meta name="author" content="Achmad Rafiq Syaddid">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="Achmad Rafiq Syaddid — Portofolio">
+  <meta property="og:description" content="Catatan proyek, teknologi yang pernah digunakan, pendidikan, dan pengalaman Achmad Rafiq Syaddid.">
+  <meta name="twitter:card" content="summary">
+  <title>Achmad Rafiq Syaddid — Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 5l7 7-7 7"/></symbol>
+    <symbol id="i-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9c0-1.1.1-1.6-.5-2.2 3.3-.4 6.8-1.6 6.8-7.2a5.6 5.6 0 0 0-1.5-3.9 5.2 5.2 0 0 0-.1-3.8s-1.2-.4-4 1.5a13.7 13.7 0 0 0-7.3 0C5.6.6 4.4 1 4.4 1a5.2 5.2 0 0 0-.1 3.8 5.6 5.6 0 0 0-1.5 3.9c0 5.6 3.5 6.8 6.8 7.2-.6.6-.6 1.2-.6 2.2V22"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="1"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5m-2-12-4 14"/></symbol>
+    <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="14" rx="1"/><path d="M8 21h8m-4-4v4"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.5 6.5a5 5 0 0 0-6.8 6.8L3 18a2.1 2.1 0 0 0 3 3l4.7-4.7a5 5 0 0 0 6.8-6.8L14 13l-3-3z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Rafiq, ke halaman awal">
+        <span class="brand-mark">AR<span>.</span></span>
+        <span class="brand-name">Rafiq Syaddid</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Buka navigasi">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-panel" id="site-nav" aria-label="Navigasi utama">
+        <a href="#tentang">Tentang</a>
+        <a href="#kemampuan">Kemampuan</a>
+        <a href="#karya">Karya</a>
+        <a href="#perjalanan">Perjalanan</a>
+        <a class="nav-contact" href="#kontak">Kontak <svg class="icon"><use href="#i-up-right"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="wrap hero-layout">
+        <div class="hero-copy">
+          <p class="kicker"><span class="kicker-line"></span> PORTOFOLIO PRIBADI <span class="kicker-year">2026 / ID</span></p>
+          <h1 id="hero-title">Saya Rafiq.<br>Sedang belajar <span class="highlight">membangun aplikasi.</span></h1>
+          <p class="hero-intro">Mahasiswa Teknik Informatika yang tertarik pada pengembangan aplikasi web dan desktop. Saya belajar paling banyak dengan mencoba, menyusun, lalu memperbaiki proyek yang sedang dikerjakan.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#karya">Lihat karya <svg class="icon"><use href="#i-arrow"/></svg></a>
+            <a class="text-link" href="#kontak">Kenalan lebih lanjut <svg class="icon"><use href="#i-up-right"/></svg></a>
+          </div>
+          <div class="hero-meta">
+            <span>Teknik Informatika</span>
+            <span>UNISKA MAB</span>
+            <span>Semester 7</span>
+          </div>
+        </div>
+
+        <aside class="identity-board" aria-label="Ringkasan profil">
+          <div class="board-top"><span>CATATAN / 001</span><span>AR—26</span></div>
+          <div class="identity-monogram" aria-hidden="true">AR<span>.</span></div>
+          <div class="identity-name">Achmad Rafiq<br>Syaddid</div>
+          <div class="identity-rule"></div>
+          <div class="identity-detail"><span>SEDANG MENEMPUH</span><strong>S1 Teknik Informatika</strong></div>
+          <div class="identity-detail"><span>MINAT</span><strong>Web · Desktop · Database</strong></div>
+          <div class="board-bottom"><span>MAHASISWA / DEVELOPER PEMULA</span><span class="board-stamp">07</span></div>
+        </aside>
+      </div>
+      <div class="hero-index" aria-hidden="true"><span>01</span><span>PORTOFOLIO RAFIQ</span><span>SCROLL UNTUK MELIHAT</span></div>
+    </section>
+
+    <section class="section about-section" id="tentang" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="section-index">01 <span>/</span> TENTANG SAYA</p>
+          <h2 id="about-title">Masih bertumbuh,<br><span class="outline-text">terus mencoba.</span></h2>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-copy">
+            <p class="about-lead">Saya sedang menempuh pendidikan S1 Teknik Informatika di Universitas Islam Kalimantan Muhammad Arsyad Al Banjari Banjarmasin.</p>
+            <p>Di perkuliahan dan proyek pribadi, saya pernah mengerjakan aplikasi sederhana berbasis Java, aplikasi desktop dengan Python, serta proyek yang berkaitan dengan pengelolaan data dan perancangan sistem.</p>
+            <p>Saya belum menganggap diri sebagai ahli. Saat ini saya masih memperkuat dasar pemrograman, memahami alur pengembangan aplikasi, dan membiasakan diri menyelesaikan pekerjaan dengan lebih terstruktur.</p>
+          </div>
+
+          <div class="about-facts">
+            <div class="fact fact-school">
+              <span class="fact-label">PENDIDIKAN TERAKHIR</span>
+              <strong>MAN 1 Barito Timur</strong>
+              <span>Lulus · 2023</span>
+            </div>
+            <div class="fact fact-study">
+              <span class="fact-label">SAAT INI</span>
+              <strong>UNISKA MAB</strong>
+              <span>S1 Teknik Informatika · Semester 7</span>
+            </div>
+            <div class="fact fact-note">
+              <span class="fact-label">CARA BELAJAR</span>
+              <strong>Belajar dengan praktik.</strong>
+              <span>Mencoba hal baru lewat proyek dan evaluasi dari hasilnya.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="kemampuan" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="section-heading heading-inline">
+          <div>
+            <p class="section-index">02 <span>/</span> TEKNOLOGI</p>
+            <h2 id="skills-title">Yang pernah<br><span class="highlight highlight-blue">saya gunakan.</span></h2>
+          </div>
+          <p class="heading-note">Daftar ini menunjukkan teknologi yang pernah saya pakai dalam proses belajar dan mengerjakan proyek. Bukan penilaian tingkat kemahiran.</p>
+        </div>
+
+        <div class="tool-list">
+          <article class="tool-row">
+            <div class="tool-heading"><span class="tool-number">A</span><h3>Bahasa pemrograman</h3></div>
+            <div class="tool-content"><span>Java</span><span>Python</span><span>PHP</span><span>JavaScript</span></div>
+          </article>
+          <article class="tool-row">
+            <div class="tool-heading"><span class="tool-number">B</span><h3>Web</h3></div>
+            <div class="tool-content"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>PHP Native</span></div>
+          </article>
+          <article class="tool-row">
+            <div class="tool-heading"><span class="tool-number">C</span><h3>Aplikasi desktop</h3></div>
+            <div class="tool-content"><span>Java Swing</span><span>Python / PySide6</span></div>
+          </article>
+          <article class="tool-row">
+            <div class="tool-heading"><span class="tool-number">D</span><h3>Database &amp; tools</h3></div>
+            <div class="tool-content"><span>MySQL</span><span>MariaDB</span><span>SQL</span><span>Git</span><span>GitHub</span><span>NetBeans</span><span>Qt Creator</span><span>VS Code</span><span>XAMPP</span><span>Laragon</span></div>
+          </article>
+        </div>
+        <p class="skills-footnote"><svg class="icon"><use href="#i-code"/></svg> Hal yang masih ingin saya dalami: perancangan perangkat lunak, pengelolaan database, dan pengembangan aplikasi yang lebih rapi.</p>
+      </div>
+    </section>
+
+    <section class="section work-section" id="karya" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-heading heading-inline">
+          <div>
+            <p class="section-index">03 <span>/</span> PILIHAN KARYA</p>
+            <h2 id="work-title">Beberapa hal yang<br><span class="outline-text">pernah saya kerjakan.</span></h2>
+          </div>
+          <a class="all-repos" href="https://github.com/achmadrafiqsyadid?tab=repositories" target="_blank" rel="noopener noreferrer">Semua repository <svg class="icon"><use href="#i-up-right"/></svg></a>
+        </div>
+
+        <div class="project-list">
+          <article class="project project-featured">
+            <div class="project-art art-rental" aria-hidden="true">
+              <div class="art-label"><span>DESKTOP APP</span><span>01 / 04</span></div>
+              <div class="art-stack"><span>PYTHON</span><i></i><span>PYSIDE6</span><i></i><span>MYSQL</span></div>
+              <div class="art-caption">SEWA<br>PERTAMBANGAN</div>
+              <div class="art-foot">DATA · LOGIKA · DATABASE</div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">01 — APLIKASI DESKTOP</p>
+              <h3>Program Sederhana<br>Sewa Pertambangan</h3>
+              <p>Aplikasi desktop untuk mengelola data penyewaan alat berat dan konsumen. Proyek ini memisahkan antarmuka, logika aplikasi, dan koneksi database.</p>
+              <div class="project-stack"><span>Python</span><span>PySide6</span><span>MySQL</span></div>
+              <a class="project-link" href="https://github.com/achmadrafiqsyadid/ProgramSederhanaSewaPertambangan" target="_blank" rel="noopener noreferrer">Lihat source code <svg class="icon"><use href="#i-up-right"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-art art-orphan" aria-hidden="true">
+              <div class="art-label"><span>SYSTEM DESIGN</span><span>02 / 04</span></div>
+              <div class="uml-mark"><span>USE CASE</span><span>ACTIVITY</span><span>SEQUENCE</span><span>CLASS</span></div>
+              <div class="art-caption">PANTI<br>ASUHAN</div>
+              <div class="art-foot">TUGAS KELOMPOK</div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">02 — PERANCANGAN SISTEM</p>
+              <h3>Sistem Manajemen<br>Data Panti Asuhan</h3>
+              <p>Proyek kelompok dalam pembelajaran Rekayasa Perangkat Lunak. Fokus pekerjaan berada pada pemodelan kebutuhan dan diagram UML, bukan klaim aplikasi yang sudah selesai.</p>
+              <div class="project-stack"><span>UML</span><span>Use Case</span><span>Activity</span><span>Sequence</span><span>Class</span></div>
+              <a class="project-link" href="https://github.com/achmadrafiqsyadid/sistem-manajemen-data-panti-asuhan" target="_blank" rel="noopener noreferrer">Lihat repository <svg class="icon"><use href="#i-up-right"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-art art-java" aria-hidden="true">
+              <div class="art-label"><span>JAVA EXERCISE</span><span>03 / 04</span></div>
+              <div class="math-card"><span>12</span><b>+</b><span>08</span><i></i><strong>20</strong></div>
+              <div class="art-foot">LATIHAN PEMROGRAMAN</div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">03 — LATIHAN DESKTOP</p>
+              <h3>Aplikasi Pertambahan<br>Dua Angka</h3>
+              <p>Aplikasi latihan berbasis Java untuk menerima dua angka dan menampilkan hasil penjumlahannya. Salah satu latihan dasar dalam pembelajaran pemrograman berorientasi objek.</p>
+              <div class="project-stack"><span>Java</span><span>GUI</span></div>
+              <a class="project-link" href="https://github.com/achmadrafiqsyadid/AplikasiPertambahanDuaAngka_2310010677" target="_blank" rel="noopener noreferrer">Lihat source code <svg class="icon"><use href="#i-up-right"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-art art-weather" aria-hidden="true">
+              <div class="art-label"><span>DESKTOP APP</span><span>04 / 04</span></div>
+              <div class="weather-symbol"><span></span><i></i></div>
+              <div class="art-caption">CEK<br>CUACA</div>
+              <div class="art-foot">DATA CUACA · API</div>
+            </div>
+            <div class="project-info">
+              <p class="project-type">04 — APLIKASI DESKTOP</p>
+              <h3>Aplikasi Cek Cuaca<br>Sederhana</h3>
+              <p>Proyek aplikasi untuk menampilkan informasi cuaca. Repository dapat ditelusuri melalui daftar proyek pada akun GitHub saya.</p>
+              <div class="project-stack"><span>Java</span><span>API</span></div>
+              <a class="project-link" href="https://github.com/achmadrafiqsyadid?tab=repositories" target="_blank" rel="noopener noreferrer">Cari di daftar repository <svg class="icon"><use href="#i-up-right"/></svg></a>
+            </div>
+          </article>
+        </div>
+        <p class="project-note">Tampilan ilustrasi pada panel proyek merupakan elemen grafis buatan CSS, bukan screenshot aplikasi. Screenshot asli dapat ditambahkan setelah aset proyek tersedia.</p>
+      </div>
+    </section>
+
+    <section class="section path-section" id="perjalanan" aria-labelledby="path-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="section-index">04 <span>/</span> PENDIDIKAN &amp; PENGALAMAN</p>
+          <h2 id="path-title">Perjalanan yang<br><span class="highlight">membentuk saya.</span></h2>
+        </div>
+
+        <div class="path-grid">
+          <div class="path-column">
+            <p class="path-label">PENDIDIKAN</p>
+            <article class="path-entry">
+              <span class="path-year">SAAT INI</span>
+              <h3>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</h3>
+              <p>S1 Teknik Informatika · Fakultas Teknologi Informasi</p>
+              <span class="path-status">Sedang menempuh semester 7</span>
+            </article>
+            <article class="path-entry">
+              <span class="path-year">LULUS 2023</span>
+              <h3>MAN 1 Barito Timur</h3>
+              <p>Madrasah Aliyah</p>
+            </article>
+          </div>
+
+          <div class="path-column experience-column">
+            <p class="path-label">PENGALAMAN KERJA</p>
+            <article class="path-entry">
+              <span class="path-year">MAGANG</span>
+              <h3>IT Support Intern</h3>
+              <p>BAPEKOM VII</p>
+              <p class="entry-detail">Pengalaman magang di bidang dukungan teknologi informasi dan lingkungan kerja instansi.</p>
+            </article>
+            <article class="path-entry">
+              <span class="path-year">PENGALAMAN KERJA</span>
+              <h3>Food Delivery Driver</h3>
+              <p>Pengantaran pesanan makanan</p>
+              <p class="entry-detail">Pekerjaan ini melatih saya untuk mengatur waktu, berkomunikasi dengan pelanggan, dan bertanggung jawab atas pesanan yang diantarkan.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="kontak" aria-labelledby="contact-title">
+      <div class="wrap contact-layout">
+        <div>
+          <p class="section-index section-index-light">05 <span>/</span> HUBUNGI SAYA</p>
+          <h2 id="contact-title">Ada yang ingin<br>dibangun atau<br><span>dibicarakan?</span></h2>
+          <p class="contact-intro">Terbuka untuk bertukar ide, berdiskusi soal teknologi, atau membicarakan kesempatan kolaborasi.</p>
+        </div>
+        <div class="contact-details">
+          <a class="contact-email" href="mailto:achmadrafiqsyadid@gmail.com"><span>EMAIL</span><strong>achmadrafiqsyadid@gmail.com</strong><svg class="icon"><use href="#i-up-right"/></svg></a>
+          <button class="copy-button" type="button" data-copy-email="achmadrafiqsyadid@gmail.com"><svg class="icon icon-copy"><use href="#i-copy"/></svg><svg class="icon icon-check"><use href="#i-check"/></svg><span data-copy-label>Salin alamat email</span></button>
+          <p class="copy-status" data-copy-status role="status" aria-live="polite"></p>
+          <div class="social-links">
+            <a href="https://github.com/achmadrafiqsyadid" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> GitHub</a>
+            <a href="https://www.instagram.com/Rafiq_s4/" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-instagram"/></svg> Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-main">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">AR<span>.</span></span><span class="brand-name">Achmad Rafiq Syaddid</span></a>
+      <p>Mahasiswa Teknik Informatika · Sedang terus belajar.</p>
+      <a class="back-top" href="#home">Kembali ke atas ↑</a>
+    </div>
+    <div class="wrap footer-bottom"><span>© <span data-year>2026</span> Achmad Rafiq Syaddid</span><span>Dibuat dengan HTML, CSS, dan JavaScript.</span></div>
+  </footer>
+</body>
+</html>
